@@ -140,7 +140,7 @@ def stream_plan(
     client = openai.OpenAI(api_key=api_key)
     stream = client.chat.completions.create(
         model="gpt-5",
-        max_tokens=16000,
+        max_completion_tokens =16000,
         stream=True,
         messages=[
             {
