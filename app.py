@@ -246,7 +246,7 @@ All recommendations must strictly avoid the listed allergens."""
 # ─────────────────────────────────────────────────────────────────────────────
 
 def stream_plan(
-    api_key: st
+    api_key: str,
     data: dict,
     include_recipes: bool,
 ) -> Generator[str, None, None]:
