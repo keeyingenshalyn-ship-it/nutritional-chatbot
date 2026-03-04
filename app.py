@@ -608,6 +608,7 @@ def main() -> None:
     )
 
     init_state()
+    load_food_db()  
 
     # ── Sidebar ──────────────────────────────────────────────────────────────
     with st.sidebar:
