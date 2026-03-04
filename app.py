@@ -220,9 +220,7 @@ OUTPUT REQUIREMENTS
 
 2. **7-Day Meal Plan** — For each day (Day 1 through Day 7):
    • Breakfast
-   • Morning Snack
    • Lunch
-   • Afternoon Snack
    • Dinner
    • Daily nutrition summary table:
      | Calories | Protein (g) | Carbs (g) | Fat (g) | Fiber (g) |
@@ -232,7 +230,7 @@ OUTPUT REQUIREMENTS
 4. **Weekly Grocery List** — Organized into sections:
    Produce | Proteins | Grains & Legumes | Dairy / Alternatives | Pantry Staples
 
-5. **Meal Prep Tips** — 5 practical tips to save time and stay on budget.
+5. **Meal Prep Tips** — 3 practical tips to save time and stay on budget.
 
 6. **Health-Specific Notes** — Any important advice relating to the listed
    health concerns or goals (e.g., blood sugar management, sodium limits).
@@ -242,7 +240,7 @@ All recommendations must strictly avoid the listed allergens."""
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Claude API — streaming
+#  API — streaming
 # ─────────────────────────────────────────────────────────────────────────────
 
 def stream_plan(
